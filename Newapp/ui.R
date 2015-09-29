@@ -1,3 +1,10 @@
+#' This is UI for Newapp
+#' 
+#' Creates a simple UI for Newapp
+#' 
+#' This UI consists of two selectInput panels which take input
+#' as well as two renderPrint output panels for producing output.
+
 shinyUI(pageWithSidebar(
   headerPanel("Swedish Radio"),
   
