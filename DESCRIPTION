@@ -1,8 +1,8 @@
 Package: Shinyapp
 Type: Package
-Title: Shiny Package for
+Title: Shiny Package for App for Lab5
 Version: 1.0.0
-Date: 2015-09-22
+Date: 2015-09-29
 Authors@R: c(
     person("Andrea", "Bruzzone", email = "andrea.bruzzone92@gmail.com", role = c("aut")),
     person("Thomas", "Zhang", email = "thomaszhangswe@gmail.com", role = c("aut", "cre"))
