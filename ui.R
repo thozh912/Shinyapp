@@ -9,22 +9,24 @@ shinyUI(pageWithSidebar(
   headerPanel("Swedish Radio"),
   
   sidebarPanel(
-    img(source="images.png")
+    img(src='images.png', height = 100, width = 250),
   ),
   
   mainPanel(
    
   selectInput(inputId = "channels", 
-              label = h3("Select channel to see which program is playing right now"),
+              label = h3("Select a channel"),
               choices = list(channel = chan)
               ),
+              helpText("It will show which program is playing in that channel right now."),
   verbatimTextOutput("song"),
   
   
   selectInput(inputId = "programme", 
-              label = h3("Select a program to see which channel it belongs to"),
+              label = h3("Select a program"),
               choices = list(programme = as.character(pro[,1]))
   ),
+   helpText("It will show the channel to which the program belongs to."),
   verbatimTextOutput("program")
   )
   
