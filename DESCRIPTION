@@ -1,0 +1,16 @@
+Package: Shinyapp
+Type: Package
+Title: Shiny Package for
+Version: 1.0.0
+Date: 2015-09-22
+Authors@R: c(
+    person("Andrea", "Bruzzone", email = "andrea.bruzzone92@gmail.com", role = c("aut")),
+    person("Thomas", "Zhang", email = "thomaszhangswe@gmail.com", role = c("aut", "cre"))
+    )
+Description: This package contains a shiny app.
+Imports:
+    httr
+Depends: R (>= 3.1.0)
+Suggests: knitr,
+    testthat
+VignetteBuilder: knitr
