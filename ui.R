@@ -9,7 +9,7 @@ shinyUI(pageWithSidebar(
   headerPanel("Swedish Radio"),
   
   sidebarPanel(
-    img(src='images.png', height = 100, width = 250),
+    img(src='/www/images.png', height = 100, width = 250),
   ),
   
   mainPanel(
